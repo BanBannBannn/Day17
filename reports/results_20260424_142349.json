@@ -1,0 +1,24 @@
+{
+  "memory_agent": {
+    "avg_response_relevance": 0.4267,
+    "avg_context_utilization": 1.0,
+    "total_tokens": 9706,
+    "avg_tokens_per_conv": 971,
+    "avg_latency_ms": 133.1,
+    "conversations": 10
+  },
+  "baseline_agent": {
+    "avg_response_relevance": 0.2833,
+    "avg_context_utilization": 1.0,
+    "total_tokens": 5035,
+    "avg_tokens_per_conv": 504,
+    "avg_latency_ms": 110.5,
+    "conversations": 10
+  },
+  "comparison": {
+    "relevance_delta": 0.1434,
+    "ctx_util_delta": 0.0,
+    "token_efficiency_delta": -0.9277,
+    "memory_hit_rate": 0.16
+  }
+}
